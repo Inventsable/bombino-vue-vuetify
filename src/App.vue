@@ -87,8 +87,7 @@
 import { mapGetters, mapActions } from "vuex";
 import HelloWorld from "./components/HelloWorld";
 import { Panel, Menus } from "lokney";
-import { openURL } from "cluecumber";
-import { evalScript } from "workaround";
+import { openURL, evalScript } from "cluecumber";
 
 export default {
   name: "App",
